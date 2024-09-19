@@ -122,7 +122,7 @@ export class Use3D {
     }
 
     onWindowResize() {
-        window.addEventListener('resize', (e) => {
+        window.addEventListener('resize', () => {
             this.camera.aspect = this.container.clientWidth / this.container.clientHeight;
             this.camera.updateProjectionMatrix();
             this.renderer.setSize(this.container.clientWidth, this.container.clientHeight);

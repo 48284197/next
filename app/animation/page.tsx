@@ -1,6 +1,6 @@
 
 import React from 'react';
-import MyAnimation from '@/components/animations/LottieAnimation';
+
 
 
 const Ani = () => {

@@ -28,7 +28,7 @@ const swiperData = [
     }
 ]
 
-const SwiperCom = (props: any) => {
+const SwiperCom = () => {
     return (
         <>
             <Swiper

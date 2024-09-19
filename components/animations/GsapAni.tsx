@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Use3D } from './use3D'
 import data from './data'
 import * as THREE from 'three'

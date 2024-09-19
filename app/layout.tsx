@@ -1,4 +1,3 @@
-import CenterNav from '@/components/nav/centerNav';
 import TabBar from '@/components/nav/mobileTabBar';
 import '@/style/global.css'
 

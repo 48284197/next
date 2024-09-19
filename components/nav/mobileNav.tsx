@@ -1,28 +1,28 @@
 
 import { FaBuysellads } from "react-icons/fa";
-import { AiOutlineRight } from "react-icons/ai";
-const menu = [
-    {
-        name: '我的信息',
-        icon: <FaBuysellads />
-    },
-    {
-        name: '我的信息',
-        icon: <FaBuysellads />
-    },
-    {
-        name: '我的信息',
-        icon: <FaBuysellads />
-    },
-    {
-        name: '我的信息',
-        icon: <FaBuysellads />
-    },
-    {
-        name: '我的信息',
-        icon: <FaBuysellads />
-    },
-]
+// import { AiOutlineRight } from "react-icons/ai";
+// const menu = [
+//     {
+//         name: '我的信息',
+//         icon: <FaBuysellads />
+//     },
+//     {
+//         name: '我的信息',
+//         icon: <FaBuysellads />
+//     },
+//     {
+//         name: '我的信息',
+//         icon: <FaBuysellads />
+//     },
+//     {
+//         name: '我的信息',
+//         icon: <FaBuysellads />
+//     },
+//     {
+//         name: '我的信息',
+//         icon: <FaBuysellads />
+//     },
+// ]
 const MobileNav = () => {
     return (
         <>

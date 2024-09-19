@@ -22,9 +22,8 @@ console.log(objArr)
 
 export const init3D = async (dom: HTMLElement) => {
 
-    var scene, camera, controls, renderer, ambient, directional, index = 0, sphere, plane;
+    var scene, camera, controls, renderer, ambient, directional, index = 0;
 
-    const clock = new THREE.Clock();
 
 
     var bgc = '#15162f';
@@ -225,7 +224,7 @@ export const init3D = async (dom: HTMLElement) => {
 
         // 平行光辅助线，添加辅助线后可以看到平行光笼罩的范围，用于细节调整
 
-        const directionalhelper = new THREE.CameraHelper(directional.shadow.camera);
+        // const directionalhelper = new THREE.CameraHelper(directional.shadow.camera);
 
         // directionalhelper1.visible = true;
 
@@ -296,7 +295,7 @@ export const init3D = async (dom: HTMLElement) => {
 
                 mesh = mesh.geometry.clone()
 
-                const material = new THREE.MeshPhongMaterial({ color: 0x457575 });
+                // const material = new THREE.MeshPhongMaterial({ color: 0x457575 });
 
                 let numbers = {
 
@@ -310,7 +309,7 @@ export const init3D = async (dom: HTMLElement) => {
 
                 const color = new THREE.Color();
 
-                const blossomPalette = [0xF20587, 0xF2D479, 0xF2C879, 0xF2B077, 0xF24405];
+                // const blossomPalette = [0xF20587, 0xF2D479, 0xF2C879, 0xF2B077, 0xF24405];
 
                 meshs = new THREE.InstancedMesh(mesh, mesh.material, 3000)
 
