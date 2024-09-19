@@ -1,0 +1,41 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+///用户表
+model User{
+  ///用户id
+  id Int @id @default(autoincrement())
+  ///用户账号
+  name String @unique
+  ///用户密码
+  password String
+  ///用户真名
+  realname String?
+  ///用户手机号码
+  cellphone String?
+  ///是否启用
+  enable Boolean? @default(true)
+  ///用户登录ip
+  ip String?
+  ///用户头像
+  avatar String?
+  ///是否删除
+  isDelete Boolean? @default(false)
+  ///用户创建时间
+  createAt DateTime @default(now())
+  ///用户更新时间
+  updateAt DateTime @updatedAt
+
+  ///用户所在部门id
+  departmentId Int? 
+
+
+  @@index([departmentId])
+  @@map("user")
+}
