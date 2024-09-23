@@ -6,7 +6,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import HomeSwiperItem from "../template/HomeSwiperItem";
 
-
 const swiperData = [
     {
         image: 'https://xuxiweii.s3.bitiful.net/images/de16392e907dace615357e701bf15e17d3c2fc40.png'

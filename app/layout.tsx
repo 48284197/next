@@ -1,5 +1,7 @@
 import TabBar from '@/components/nav/mobileTabBar';
 import '@/style/global.css'
+import "reset.css"
+
 
 
 export default function RootLayout({
@@ -9,12 +11,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
 
+      </head>
       <body>
-        
-
-   
-          {children}
+        {children}
         <TabBar />
       </body>
 

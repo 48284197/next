@@ -4,6 +4,10 @@
 
 @tailwind utilities;
 
+:fullscreen{
+    /* properities*/
+
+}
 
 .GradientBorder {
     @apply relative after:content-[''] before:content-['']
